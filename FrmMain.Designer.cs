@@ -77,6 +77,7 @@
             // lblSzoveg
             // 
             lblSzoveg.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lblSzoveg.BackColor = Color.Gray;
             tableLayoutPanel1.SetColumnSpan(lblSzoveg, 3);
             lblSzoveg.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblSzoveg.Location = new Point(5, 5);
